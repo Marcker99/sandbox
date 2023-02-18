@@ -1,0 +1,1 @@
+SELECT copa_del_rey_goals + champions_league_goals + la_liga_goals as res from goals
