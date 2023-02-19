@@ -68,3 +68,15 @@ function removeSmallest(numbers) {
     let indexOfMin = numbers.indexOf(Math.min(...numbers));
     return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
 }
+//n9
+function find_average(array) {
+    let va = 0
+    for (el of array) {
+        va += el
+    }
+    return array.length !== 0 ? va / array.length : 0
+}
+//sposob 2
+function find_average(array) {
+    return (Math.min(...array) + Math.max(...array)) / 2;
+}
