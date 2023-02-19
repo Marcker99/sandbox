@@ -42,3 +42,15 @@ function predictAge(age1, age2, age3, age4, age5, age6, age7, age8) {
     return Math.floor(Math.sqrt(Math.pow(age1, 2) + Math.pow(age2, 2) + Math.pow(age3, 2) + Math.pow(age4, 2) +
         Math.pow(age5, 2) + Math.pow(age6, 2) + Math.pow(age7, 2) + Math.pow(age8, 2)) / 2)
 }
+//n6
+function largestOfFour(arr) {
+    let arr1 = []
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length; j++) {
+            if (arr[i][j] === Math.max(...arr[i])) {
+                arr1.push(arr[i][j])
+            }
+
+        }
+    } return (arr1)
+}
