@@ -54,3 +54,13 @@ function largestOfFour(arr) {
         }
     } return (arr1)
 }
+//n7
+var number = function (array) {
+    let answerArr = array.map((el, index) => {
+        return el = `${index + 1}: ${el}`
+    })
+
+    return answerArr
+}
+//можна ретурн тільки в тілі map()
+//n8
